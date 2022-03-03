@@ -1,0 +1,320 @@
+/****************************************
+ * GENERAL
+ ***************************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6;
+}
+
+p {
+	font-size: 1.0em;
+}
+
+li {
+	font-size: 1.0em;
+}
+
+ul {
+	padding: 0 0 0 20px;
+}
+
+ol {
+	padding: 0 0 0 20px;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/****************************************
+ * HEADER
+ ***************************************/
+ 
+#logo {
+	text-align: center;
+}
+
+.main-header {
+	background-color: #0f4c81;
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Kanit', sans-serif;
+	margin: 8px 0 10px 0;
+	font-size: 3em;
+	line-height: 40px;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: 'Exo 2', sans-serif;
+	margin: 10px 0 20px 0;
+	font-size: 0.9em;
+}
+
+/****************************************
+ * NAV
+ ***************************************/
+
+nav {
+	background-color: #1b86e4;
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
+nav a  {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0 3px;
+	font-size: 0.85em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 2px 0 2px;
+}
+
+nav a:link, nav a:visited {
+	background-color: #1b86e4;
+  	color: white;
+  	border: 3px outset white;
+   	text-align: center;
+ 	display: inline-block;
+}
+
+nav a:hover {
+	color: #135ea0;
+	border-style: inset;
+}
+
+nav a.selected {
+	color: #135ea0;
+}
+
+/****************************************
+ * BANNER
+ ***************************************/
+
+.banner {
+	padding: 50px 0 30px 0;
+	background: url(../img/moon.jpg) no-repeat center / cover fixed;
+}
+
+.banner p {
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
+	color: #ffffff;
+	text-align: left;
+	padding: 0 0 3% 3%;
+}
+
+
+/****************************************
+ * SECTION
+ ***************************************/
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto 70px auto;
+	padding: 10px 5% 10px 5%;
+	box-sizing: border-box;
+	background-color: ;
+}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#gallery img {
+	max-width: 100%;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #cccccc;
+}
+
+#gallery li a p {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #000000;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+}
+
+.section a {
+	text-decoration: underline;
+	word-wrap: break-word;
+}
+
+	
+
+
+/****************************************
+ * FOOTER
+ ***************************************/
+
+footer {
+	text-align: center;
+	clear: both;
+	padding: 40px;
+	background-color: #0f4c81;
+}
+
+footer p {
+	font-size: 0.85em;
+	color: #ffffff;
+}
+
+.icona-social {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+
+.container {
+	min-height: calc(100vh - 157.2px);
+}
+
+/****************************************
+ * ABOUT
+ ***************************************/
+ 
+.foto-profilo {
+	display: block;
+	max-width: 200px;
+	border-radius: 100%;
+	margin: 30px auto 30px auto;
+}
+
+.section {
+	margin: 80px 0 50px 0;
+}
+
+.content {
+	text-align: justify;
+}
+
+.h3-about {
+	font-size: 1.3em;
+}
+
+/****************************************
+ * INDEX
+ ***************************************/
+
+.last-article {
+	text-align: center;
+	padding: 100px 0 15px 0;
+	font-size: 1.4em;
+}
+
+/****************************************
+ * H3 GENERAL
+ ***************************************/
+
+.h3-general {
+	font-size: 2em;
+	text-align: center;
+	margin: 0 0 30px 0;
+	font-weight: normal;
+}
+
+/****************************************
+ * COMMENTI E FOTO
+ ***************************************/
+
+.commenti-foto {
+	font-size: 0.80em;
+	font-weight: normal;
+	color: #000000;
+	padding: 2%;
+	margin: 0;
+	text-align: center;
+	color: #848494;
+}
+
+
+
+
+/****************************************
+ * TITOLI E SOTTOTITOLI
+ ***************************************/
+
+h4 {
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+h5 {
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+h6 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/****************************************
+ * MOTOCICLISMO A SCUOLA
+ ***************************************/
+
+.ms img {
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+	max-width: 100%;
+}
+
+/****************************************
+ * PALLAVOLO
+ ***************************************/
+
+.ms1 img {
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 150px;
+	max-width: 100%;
+}
+
+.ms3 img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/****************************************
+ * PALLACANESTRO
+ ***************************************/
+ 
+
+.ms2 img {
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 300px;
+	max-width: 100%;
+}
